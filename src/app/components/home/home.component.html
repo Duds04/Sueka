@@ -1,0 +1,33 @@
+<div>
+  <mat-card class="home mat-elevation-z3">
+    <mat-card-title class="title">Bem Vindo!</mat-card-title>
+    <mat-card-subtitle class="subtitle">Uma tentativa de desenvolver o jogo Sueka em versão web
+      <img src="../../../assets/img/download.png" alt="">
+    </mat-card-subtitle>
+  </mat-card>
+  <button mat-raised-button color="primary" class="start" gradient="peach" routerLink="/sueka">Bora Jogar!</button>
+  <button mat-raised-button color="primary" class="help" (click)="explicacao()">Afinal, que porra é sueka?</button>
+  <mat-card class="explicacao d-none">
+    <mat-card-title class="title">Sueka 🤔</mat-card-title>
+    <div>
+      Se você, assim como eu, escutou esse nome e ficou sem entender bulhufas eu vim trazer a explicação pra desentendidos como nós 😉
+      <br>
+      Então meu caro, Sueka se trata de um baralho drinking game, jogo de beber, <span class="menor">(ui, ui, bebidas 😏)</span>
+      ou seja, é umas cartinha pra fazer geral beber
+      <br>
+      <br>
+      Mas agora vc se pergunta "Desenvoledor como é que vc vai fazer um jogo de cartas na porra de um site?"
+      <br>
+      E eu te respondo meu caro...
+      <br>
+      Eu tbm não sei <img src="../../../assets/img/derretendo.png" alt="">
+      <br>
+      Mas se vc e seus amigos estão lendo isso é pq eu fiz <span class="menor">hehehe</span>
+      <br>
+      Então é isso meu caro aproveite o game e lembre-se beba com moderação <span class="menor">ou não, quem sou eu pra julgar 😇</span>
+    </div>
+
+    <button mat-raised-button color="primary" (click)="regras()">Regras</button>
+  </mat-card>
+
+</div>

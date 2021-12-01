@@ -1,0 +1,29 @@
+.cartas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 220px; */
+  /* height:500px; */
+}
+
+.cartas img{
+  height: 500px;
+}
+
+.sudoka{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header{
+  flex-basis: 100%;
+}
+
+.d-none{
+
+}
+
+button{
+  margin-bottom: 10px;
+}
