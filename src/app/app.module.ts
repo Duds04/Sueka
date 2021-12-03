@@ -28,6 +28,9 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { SuekaHomeComponent } from './components/sueka/sueka-home/sueka-home.component';
+import { SuekaRegrasComponent } from './components/sueka/sueka-regras/sueka-regras.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { SuekaDialogAmarelouComponent } from './components/sueka/sueka-dialog-amarelou/sueka-dialog-amarelou.component';
 
 registerLocaleData(localePt);
 
@@ -38,8 +41,11 @@ registerLocaleData(localePt);
     FooterComponent,
     NavComponent,
     HomeComponent,
-    SuekaHomeComponent
+    SuekaHomeComponent,
+    SuekaRegrasComponent,
+    SuekaDialogAmarelouComponent,
   ],
+  entryComponents: [SuekaDialogAmarelouComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -56,7 +62,8 @@ registerLocaleData(localePt);
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatDialogModule
   ],
   providers: [{
     provide: LOCALE_ID,

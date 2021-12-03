@@ -1,3 +1,4 @@
+import { HeaderService } from './../template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 import { AnyService } from '../../services/any.service';
@@ -10,7 +11,13 @@ import { AnyService } from '../../services/any.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private anyService: AnyService) { }
+  constructor(private anyService: AnyService, private headerService: HeaderService) {
+    headerService.headerData = {
+      title: 'Inicio',
+      icon: 'home',
+      routeUrl: ''
+    }
+  }
 
   ngOnInit(): void {
   }
