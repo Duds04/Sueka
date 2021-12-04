@@ -8,6 +8,7 @@
 .regras .subtitle {
   /* em -> se basei na fonte anterior */
   /* font-size: 1rem; */
+  font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
   color: #fff;
 }
 
