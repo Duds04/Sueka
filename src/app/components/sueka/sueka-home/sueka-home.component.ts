@@ -27,7 +27,7 @@ export class SuekaHomeComponent implements OnInit {
 
   sortearCarta(){
     this.cartas = this.anyService.sorteador(106, 1)
-    this.src = `../../../../assets/img/cartas/${this.cartas}.png`
+    this.src = `assets/img/cartas/${this.cartas}.png`
   }
 
   reproduzirAudio(){
