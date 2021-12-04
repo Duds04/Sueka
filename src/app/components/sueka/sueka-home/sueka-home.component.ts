@@ -22,13 +22,13 @@ export class SuekaHomeComponent implements OnInit {
   }}
 
   ngOnInit(): void {
-    this.subtitle = 'Uma tentativa de desenvolver o jogo Sueka em versão web'
+    this.subtitle = 'Sigas as orientações apresentadas nas cartas!'
   }
 
   sortearCarta(){
-    this.cartas = this.anyService.sorteador()
-    // this.src = `../../../../assets/img/cartas/carta${this.cartas}.png`
-    this.src = `../../../../assets/img/cartas/carta3.gif`
+    this.cartas = this.anyService.sorteador(106, 1)
+    this.src = `../../../../assets/img/cartas/${this.cartas}.png`
+
   }
 
   openDialog () {

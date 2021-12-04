@@ -7,7 +7,8 @@
 }
 
 .cartas img{
-  height: 500px;
+  height: 561px;
+  min-width: 160px;
 }
 
 .sudoka{
@@ -38,4 +39,8 @@ button{
 
 .mat-dialog-container{
   background-color: #8b9142 !important;
+}
+
+img{
+  padding-bottom: -1px;
 }

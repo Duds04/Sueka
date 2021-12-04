@@ -22,7 +22,7 @@ export class AnyService {
     })
   }
 
-  sorteador(): number{
-    return parseInt((Math.random() * (2 - 1) + 1).toFixed(0));
+  sorteador(max: number, min: number): number{
+    return parseInt((Math.random() * (max - min) + min).toFixed(0));
   }
 }
