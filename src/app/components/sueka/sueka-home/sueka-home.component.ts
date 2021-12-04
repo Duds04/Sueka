@@ -28,10 +28,15 @@ export class SuekaHomeComponent implements OnInit {
   sortearCarta(){
     this.cartas = this.anyService.sorteador(106, 1)
     this.src = `../../../../assets/img/cartas/${this.cartas}.png`
+  }
 
+  reproduzirAudio(){
+    const audio = document.querySelector('audio')
+    audio?.play()
   }
 
   openDialog () {
+    this.reproduzirAudio()
     this.dialog.open(SuekaDialogAmarelouComponent, {
       width: '400px',
     });
