@@ -54,6 +54,10 @@ a {
 @media screen and (max-width: 550px) {
   .regras{
     width: 90%;
+    margin-left: 0%;
+  }
+  ul{
+    margin-left: 1px;
   }
   .home{
     display: block;

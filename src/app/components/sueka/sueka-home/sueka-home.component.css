@@ -65,4 +65,8 @@ img{
   .home{
     display: block;
   }
+  .cartas img{
+    height: 400px;
+    min-width: 160px;
+  }
 }
