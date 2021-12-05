@@ -24,3 +24,9 @@
     height: 80vh;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .sidenav {
+    display: none;
+  }
+}

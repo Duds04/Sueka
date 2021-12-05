@@ -44,3 +44,25 @@ button{
 img{
   padding-bottom: -1px;
 }
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home{
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .d-block {
+    display: block;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home{
+    display: block;
+  }
+}

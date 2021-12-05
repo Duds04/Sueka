@@ -52,3 +52,9 @@ button{
 .d-none{
   display: none;
 }
+
+@media screen and (max-width: 550px) {
+  .explicacao{
+    width: 90%;
+  }
+}
