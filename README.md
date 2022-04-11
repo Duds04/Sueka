@@ -1,5 +1,5 @@
 # Link
-Link da page upada pra jogar: https://duds04.github.io/Sueka/
+Link da página upada pra jogar: https://duds04.github.io/Sueka/
 
 ## Frontend
 
