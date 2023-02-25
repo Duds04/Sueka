@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,  OnInit, HostListener, ViewChild, ElementRef  } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -10,6 +10,16 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+   @ViewChild('nav') myNav!:ElementRef;
+
+  @HostListener('window:scroll') onWindowScroll() {
+    if (window.scrollY > 1.5) {
+      $(".sidenav").addClass("randomClass")
+    } else {
+      $(".sidenav").removeClass("randomClass")
+    }
   }
 
 }
