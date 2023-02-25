@@ -30,3 +30,7 @@
     display: none;
   }
 }
+
+mat-sidenav{
+  margin-top: 0px;
+}
