@@ -1,7 +1,7 @@
 .sidenav {
   background-color: #6a48a8;
   width: 200px;
-  margin-top: 6px;
+  margin-top: 70px;
 }
 
 .sidenav a {
@@ -31,6 +31,6 @@
   }
 }
 
-mat-sidenav{
-  margin-top: 0px;
+.randomClass{
+  margin-top: 0px !important;
 }
