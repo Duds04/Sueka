@@ -1,30 +1,45 @@
-# Link
-Link da página upada pra jogar: https://duds04.github.io/Sueka/
+# **Sueka - Jogo de Cartas Digital**
 
-## Frontend
+**Sueka** é uma implementação digital do clássico jogo de cartas, trazendo uma experiência nostálgica com uma dinâmica de jogo repaginada. Explore novas cartas e mecânicas enquanto se diverte!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+**Link para jogar**: [Sueka - Jogo Online](https://duds04.github.io/Sueka/)
 
-### Development server
+## **Tecnologias Utilizadas**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este projeto foi desenvolvido utilizando **Angular** para o frontend, aproveitando os recursos e a estrutura do framework para criar uma aplicação interativa e responsiva.
 
-### Code scaffolding
+## **Instruções para Desenvolvimento**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### **Servidor de Desenvolvimento**
 
-### Build
+Para rodar o servidor de desenvolvimento, execute o comando:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng serve
+```
+O app estará disponível em `http://localhost:4200/`. A aplicação será recarregada automaticamente sempre que você fizer alterações nos arquivos de origem.
 
-### Running unit tests
+## Estrutura de Código
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Componentes**: Utilize `ng generate component component-name` para gerar novos componentes.
+- **Outros recursos**: Também é possível gerar diretivas, pipes, serviços, classes, guards, interfaces, enums e módulos com o Angular CLI.
 
-### Running end-to-end tests
+## **Compilação**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para compilar o projeto para produção, execute:
 
-### Further help
+```bash
+ng build
+```
+Os artefatos de compilação serão armazenados na pasta dist/.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## **Minha Jornada no Desenvolvimento do Sueka**
+
+Estou muito feliz com a evolução deste projeto! 🎉  
+O **Sueka** não é apenas uma versão digital de um jogo muito divertido, mas também um **marco importante** no meu desenvolvimento como desenvolvedora, sendo o **meu primeiro projeto frontend** desenvolvido. Durante a criação, tive a oportunidade de:
+
+- Explorar e aprofundar meus conhecimentos em **Angular** 🚀
+- Aprimorar minhas habilidades em **desenvolvimento de frontend** 💻
+- Enfrentar desafios técnicos que me ajudaram a **crescer** como profissional 🌱
+
+Cada etapa desse projeto foi uma experiência de aprendizado e evolução. Estou empolgada com o que conquistei até aqui e ansiosa para continuar expandindo e melhorando!
